@@ -58,10 +58,10 @@ Content-Type: application/json
 }
 ```
 
-### Update a Lead
+## Update a Lead
 
 ### Endpoint
-- **HTTP Method:** `PUT` or `PATCH`
+- **HTTP Method:** `PUT`
 - **Endpoint URL:** `/module/Leads/{lead_id}`
 
 ### Parameters
@@ -93,10 +93,11 @@ Content-Type: application/json
 ```
 
 ## **Error Responses:**
-Though in most cases you'll receive a `HTTP 200` response with a plain text ok indicating that your message posted successfully, it's best to prepare for scenarios where attempts to publish a message will fail.
+Though in most cases you'll receive an `HTTP 200` response with a plain text ok indicating that your message was posted successfully, it's best to prepare for scenarios where attempts to publish a message will fail.
 
   - `400 Bad Request`: Invalid request format.
   - `401 Unauthorized`: Missing or invalid authentication token.
+  - `403 Forbidden`: The API key doesn't have permission to perform the request.
   - `404 Not Found`: Lead not found.
 
 ## Rate Limiting
