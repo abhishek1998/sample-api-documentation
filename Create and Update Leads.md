@@ -52,7 +52,7 @@ Content-Type: application/json
 ```json
 {
   "data": {
-    "id": "abcdef123456",
+    "id": "550e8400-e29b-41d4-a716-446655440000",
     "message": "Lead created successfully"
   }
 }
@@ -86,7 +86,7 @@ Content-Type: application/json
 ```json
 {
   "data": {
-    "id": "abcdef123456",
+    "id": "550e8400-e29b-41d4-a716-446655440000",
     "message": "Lead updated successfully"
   }
 }
