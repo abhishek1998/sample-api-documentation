@@ -38,12 +38,15 @@ Content-Type: application/json
 }
 ```
 ### Attributes
-- **first_name**: (string) First name of the lead (required).
-- **last_name**: (string) Last name of the lead (required).
-- **email**: (string) Email address of the lead (required).
-- **phone**: (string) Phone number of the lead (required).
-- **status**: (string) Status of the lead (e.g., New, Contacted, Converted).
-- **source**: (string) Source of lead acquisition (e.g., Website, Referral).
+
+| Attribute   | Type    | Description                                      |
+|-------------|---------|--------------------------------------------------|
+| `first_name`  | string  | First name of the lead (required).               |
+| `last_name`   | string  | Last name of the lead (required).                |
+| `email`       | string  | Email address of the lead (required).            |
+| `phone`       | string  | Phone number of the lead (required).             |
+| `status`      | string  | Status of the lead (e.g., New, Contacted).      |
+| `source`      | string  | Source of lead acquisition (e.g., Website).      |
 
 ### Example Response
 ```json
